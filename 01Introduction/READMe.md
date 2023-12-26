@@ -16,6 +16,9 @@ By the end of this course, you'll walk away knowing how to do the following:
 * Use Python to read and write files
 * Use Python to combine multiple CSV files
 * Use Python to reach out to a website to extract data
+* Solve silly puzzles about Elves with Python
+* Understand the basics of Version Control (VC) and why it's useful
+* Understand the basics of debugging, and what to do when your code doesn't work
 * Read and write **Markdown**, a text-based markup language
 
 ## Text and Text Editors
