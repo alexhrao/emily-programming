@@ -63,7 +63,8 @@ num1 = 1
 num2 = -5
 num3 = 1.2345
 
-# Text is a string of characters (hence their name: String). You write them by enclosing them in single or double quotes:
+# Text is a string of characters (hence their name: String). 
+# You write them by enclosing them in single or double quotes:
 str1 = "Hello!"
 str2 = 'hi there!'
 # You can have an empty string:
@@ -315,7 +316,28 @@ letter(91)
 
 Programmers make liberal use of functions, because they serve as what's known as _abstraction_. This is the idea that I don't want to have to think about how to do something every time; I'll write the function once, and then trust that it handles all the nitty gritty details.
 
-I can take the 
+I can take the initial example and rewrite it as:
+
+```py
+grade1 = 95
+grade2 = 70
+grade3 = 45
+grade4 = 88
+# Here I define the recipe (function)...
+def letter(grade):
+    if grade >= 90:
+        print("A")
+    elif grade >= 80:
+        print("B")
+    elif grade >= 70:
+        print("C")
+    else:
+        print("LOL u suck")
+letter(grade1)
+letter(grade2)
+letter(grade3)
+letter(grade4)
+```
 
 ## Iteration
 
