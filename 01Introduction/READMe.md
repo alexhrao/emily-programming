@@ -19,6 +19,7 @@ By the end of this course, you'll walk away knowing how to do the following:
 * Solve silly puzzles about Elves with Python
 * Understand the basics of Version Control (VC) and why it's useful
 * Understand the basics of debugging, and what to do when your code doesn't work
+* Be comfortable with nothing but a Terminal
 * Read and write **Markdown**, a text-based markup language
 
 ## Text and Text Editors
@@ -28,7 +29,7 @@ From now on we’re dealing with what’s called plain text. If you have ever se
 
 You don’t edit these things with Word or google docs. You use something called a “text editor”. These applications are tailored to editing just text
 
-The de facto standard is called Visual Studio Code (**VSC**), which you’re already familiar with! Just as a refresher, you'll want to open a new VSC window, `File > New Text File`, then when you save it, save it as `code.py`. VSC is nice in that once it knows you're typing Python, it has what's called "intellisense"; it'll try its best to autocomplete your code! This is a game changer and supercharges productivity.
+The de facto standard is called [Visual Studio Code][1] (**VSC**), which you’re already familiar with! Just as a refresher, you'll want to open a new VSC window, `File > New Text File`, then when you save it, save it as `code.py`. VSC is nice in that once it knows you're typing Python, it has what's called "intellisense"; it'll try its best to autocomplete your code! This is a game changer and supercharges productivity.
 
 ## Terminal
 Often you interact with the computer by clicking, typing, etc. applications give dialogs that ask you things, usually in a pretty text box or something. This is great but it adds a lot of steps, and it makes it really hard to automate stuff. Given that the whole point of programming is to make a computer do things that are repetitive, it would be really nice to have a way of giving a computer commands that we can easily repeat later on.
@@ -43,6 +44,25 @@ For example, in this command we're asking the app called `python3` what version 
 You can get super complicated here, but for our purposes you really only need to know how to invoke Python. Suppose you have code in a file called `code.py`, to run it, just open a terminal (In VSC, go to `View > Terminal`), and then run:
 
 ``` sh
-python3 code.py
+python3 mycode.py
 ```
 
+## Sanity Check
+
+Now let's write a line of code! Create a new file called `mycode.py`, and put the following in there:
+
+``` py
+print("Hello, World!")
+```
+
+Then, open a terminal (Windows: ``Ctrl + ` ``, Mac: ``Cmd + ` ``), and run the following:
+```sh
+python3 mycode.py
+```
+
+If everything's set up, you should see:
+```
+Hello, World!
+```
+
+[1]: https://code.visualstudio.com/
